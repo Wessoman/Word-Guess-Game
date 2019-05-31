@@ -196,7 +196,14 @@ document.onkeyup = function(q) {
 	gameObject.revealBand();
 	console.log(gameObject.rightGuessesInOrder);
 
-	//Check to see if the game is still in progress or if a win/lose has happened
+	//Check to see if the game is still in progress or if a win/lose went down
 	gameObject.checkProgress();
+
+	//known issues:
+	//How the hell do I play a sound instead of sounding an alert?
+	//How can I flash "YOU WIN" instead of an alert?
+	//How can I remove the commas being drawn by revealBand?
+	//I'm tired and I need my sleep now.
+	
 }
 
