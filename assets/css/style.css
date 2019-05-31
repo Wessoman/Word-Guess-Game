@@ -17,3 +17,7 @@ p {
 	color: white;
 	text-align: center;
 }
+
+.col-sm-6 {
+	height: 510px;
+}

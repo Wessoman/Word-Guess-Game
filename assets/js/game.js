@@ -23,12 +23,11 @@ var gameObject = {
 		var random_num = Math.random() * 27;
 		random_num = Math.floor(random_num);
 
-		//Assign randomWord to a word from the array whose index was chosen randomly.
-		//Split the string into an array containing the individual letters of the randomly chosen word
+		//Assign randomWord to a randomly chosen band from the index
+		//Split the band into an array of individual letters
 		this.randomWord = this.bandsArray[random_num];
 		this.bandLetters = this.randomWord.split("");
 
-		//Shows that a randomly chosen band name was converted into an array containing each of its letters.
 		console.log(this.randomWord + " " + this.bandLetters);
 
 		//Since this function will only run on a win/loss, reset the guesses arrays
